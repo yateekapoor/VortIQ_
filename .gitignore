@@ -1,0 +1,29 @@
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local configuration and secrets — never commit these
+.env
+.env.*
+!.env.example
+secrets/
+*.key
+*.pem
+
+# Future backend/runtime artifacts
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+logs/
+data/
+evidence/
+uploads/
+
+# Test/build outputs
+coverage/
+dist/
+_site/
